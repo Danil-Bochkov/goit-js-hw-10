@@ -18,10 +18,11 @@ function onSearch(evt) {
     let searchCountry = form.value.trim();
     form.value = searchCountry;
     if (searchCountry != "") {
-        console.log(searchCountry);
         API.fetchCountries(searchCountry)
             .then(checkLength)
             .catch(onFetchError)
+    } else {
+        refs.countryList.innerHTML = "";
     }
 } 
 
