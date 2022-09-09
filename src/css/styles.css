@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 10px;
 }
 
 #search-box {
@@ -17,4 +18,14 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul { 
+  list-style: none;
+}
+
+.icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 25px;
 }
